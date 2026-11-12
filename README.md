@@ -1,5 +1,7 @@
 Fake python job listings web sraper
 ===
+This project is one of the Data Analyst roadmap project [Python Job Listings Scraper
+](https://roadmap.sh/projects/job-listings-scraper).
 
 This project scrape website from [Fake Python](https://realpython.github.io/fake-jobs/). 
 The result is a csv file include 4 information: Job title, company name, location, job detail page url.
