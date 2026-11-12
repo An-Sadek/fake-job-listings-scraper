@@ -13,10 +13,10 @@ Step 1: Create virtual environment (Optional)
 python -m venv website-scrape
 
 # Command prompt
-./website-scrape/Scripts/activate.bat
+py-scrape\Scripts\activate.bat
 
 # Powershell
-./website-scrape/Scripts/Activate.ps1
+.\py-scrape\Scripts\Activate.ps1
 ```
 
 Step 2: Install libraries

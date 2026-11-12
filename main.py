@@ -43,4 +43,4 @@ def scrape_web(website_url: str, output_csv: str) -> None:
 
 if __name__ == "__main__":
     URL = "https://realpython.github.io/fake-jobs/"
-    scrape_web(URL, "listing_jobs.csv")
+    scrape_web(URL, "result.csv")
