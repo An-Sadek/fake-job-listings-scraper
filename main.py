@@ -40,6 +40,7 @@ def scrape_web(website_url: str, output_csv: str) -> None:
     except requests.HTTPError as httpE:
         raise SystemExit("HTTP Eror:", httpE)
 
+
 if __name__ == "__main__":
     URL = "https://realpython.github.io/fake-jobs/"
     scrape_web(URL, "listing_jobs.csv")
